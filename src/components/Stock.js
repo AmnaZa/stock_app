@@ -20,6 +20,11 @@ export default function Stock (){
       <p>High: {stock.high}</p>
       <p>Low: {stock.low}</p>
       <p>Open: {stock.open}</p>
+      {/* Display additional attributes of the stock here */}
+      {/* For example: */}
+      <p>Previous Close: {stock.previousClose}</p>
+      <p>Volume: {stock.volume}</p>
+      {/* Add more attributes as needed */}
     </div>
   );
 };
